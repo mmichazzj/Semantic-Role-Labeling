@@ -1,1 +1,20 @@
+{
+	"max_train_length": 100,
+	"batch_size"   : 80,
+	"features"     : [ "predicate" ],
+	"feature_sizes": [ 100 ],
+	"use_se_marker": false,
+	"dev_batch_size": 500,
 
+	//"word_embedding" : "glove100",
+	"word_embedding" : "word2vec32",
+	"lstm_hidden_size": 300,
+	"num_lstm_layers" : 8,
+	"max_grad_norm": 1.0,
+	"input_dropout_prob":0.0,
+	"per_layer_dropout":true,
+
+	"trainer"   : "Adadelta",
+	"max_epochs": 500,
+	"checkpoint_every_x_epochs": 1
+}
