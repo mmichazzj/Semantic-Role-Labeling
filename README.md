@@ -8,4 +8,4 @@
 # 数据集
 [CoNLL-2005 shared task](https://www.cs.upc.edu/~srlconll/soft.html)F1得分81.07
 [CoNLL-2012 shared task](http://conll.cemantix.org/2012/data.html)F1得分81.27, 
-数据集的获取可以参考[这篇](https://www.jianshu.com/p/025bf2bd0ed5)博客.
+数据集的获取与处理可以参考[这篇](https://blog.csdn.net/m0_37722110/article/details/103441140)博客.
